@@ -1,0 +1,102 @@
+#photo-modal {
+  display: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  top: 200px;
+  left: 550px;
+}
+#photo-modal #modal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border: solid black 4px;
+  width: 800px;
+  border-radius: 20px;
+  padding: 20px;
+}
+#photo-modal #modal .icon-left, #photo-modal #modal .icon-right {
+  height: 100px;
+  width: 100px;
+}
+#photo-modal #modal img {
+  height: 500px;
+  width: 500px;
+}
+#photo-modal #modal .icon-close {
+  height: 80px;
+  width: 80px;
+  margin-bottom: 500px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#file-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 50px;
+}
+#file-input input {
+  display: none;
+}
+#file-input img {
+  height: 200px;
+  width: 200px;
+  cursor: pointer;
+  display: block;
+}
+#file-input img > input {
+  display: none;
+}
+
+#gallery {
+  width: 100%;
+  margin-top: 50px;
+}
+#gallery .container {
+  width: 80%;
+  border: solid black 2px;
+  border-radius: 30px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+#gallery .container .gallery-photo {
+  border: solid black 1px;
+  border-radius: 2px;
+  width: 20%;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#gallery .container .gallery-photo img {
+  height: 180px;
+  width: 80%;
+  margin-top: 10px;
+}

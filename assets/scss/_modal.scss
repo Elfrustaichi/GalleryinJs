@@ -1,0 +1,37 @@
+#photo-modal{
+    display: none;
+    justify-content: center;
+    position: absolute;
+    top: 200px;
+    left: 550px;
+    
+    #modal{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        border: solid black 4px;
+        width: 800px;
+        border-radius: 20px;
+        padding: 20px;
+        
+       .icon-left,.icon-right{
+            height: 100px;
+            width: 100px;
+        }
+        img{
+            height: 500px;
+            width: 500px;
+            
+        }
+        .icon-close{
+            height: 80px;
+            width: 80px;
+            margin-bottom: 500px;
+           
+
+        }
+    }
+
+}
+
+

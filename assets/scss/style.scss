@@ -1,0 +1,56 @@
+@import "_modal.scss";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#file-input{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    input{
+        display: none;
+    }
+    img{
+        height: 200px;
+        width: 200px;
+        cursor: pointer;
+        display: block;
+    }
+    img>input{
+        display: none;
+    }
+}
+#gallery{
+    width: 100%;
+    margin-top: 50px;
+    
+    .container{
+        width: 80%;
+        border: solid black 2px;
+        border-radius: 30px;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        
+        .gallery-photo{
+            border: solid black 1px;
+            border-radius: 2px;
+            width: 20%;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            img{
+                height: 180px;
+                width: 80%;
+                margin-top: 10px;
+                
+            }
+
+        }
+    }
+}
+
